@@ -11,7 +11,7 @@ function App() {
  
 
   return (
-    <div className=' bg-neutral-950 text-amber-50'>
+    <div data-theme="dark">
     
      <Navbar/>
      <Intro/>

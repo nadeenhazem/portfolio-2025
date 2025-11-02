@@ -1,7 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
-
 @import "tailwindcss";
-
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 @theme {
   --font-lobster: "Lobster"; 
+   
+
 }
+body.dark-mode {
+  background-color: #1a1a1a;
+  color: white;
+}
+.icon-dark-mode {
+  background-color: #1a1a1a;
+}
+.icon-light-mode {
+  background-color: #f7f7f7;
+}
+
+
+
+
+
