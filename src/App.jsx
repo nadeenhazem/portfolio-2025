@@ -11,11 +11,11 @@ function App() {
  
 
   return (
-    <div data-theme="dark">
+    <div data-theme="dark overflow-x-hidden">
     
-     <Navbar/>
-     <Intro/>
-     <AboutMe/>
+      <Navbar/>
+    <Intro/>
+      <AboutMe/>
      <Experience/>
      <MySkills/>
      <Resume/>
