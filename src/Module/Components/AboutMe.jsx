@@ -1,12 +1,14 @@
-import React from "react";
 import AboutMeImg from "../../img/AboutMe.png";
 function AboutMe() {
   return (
-    <div className="w-full flex flex-col md:flex-row justify-between  m-3 pt-5 container mx-auto">
-      <div className="md:w-1/2 w-full flex flex-col   justify-center mx-auto">
-        <img src={AboutMeImg} className="md:w-1/2 w-full" />{" "}
+    <div
+      id="AboutMe"
+      className="w-[90%] flex flex-col md:flex-row justify-around m-3 pt-5 container mx-auto"
+    >
+      <div className="md:w-1/2 w-full ">
+        <img src={AboutMeImg} className="md:w-3/4 w-full" />
       </div>
-      <div className="md:w-1/2 w-full flex flex-col text-center md:text-start justify-center ">
+      <div className="md:w-1/2 w-full flex flex-col text-center md:text-start justify-center">
         <p className="text-5xl font-lobster bg-gradient-to-r from-[#F7971E] to-[#FFD200]  bg-clip-text text-transparent font-bold mb-3">
           About Me
         </p>

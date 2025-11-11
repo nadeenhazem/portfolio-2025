@@ -5,7 +5,10 @@ import myResume from "../../img/NadineHazem.pdf";
 import { MdOutlineMailOutline } from "react-icons/md";
 function Intro() {
   return (
-    <div className="w-full flex flex-col md:flex-row  overflow-x-hidden container mx-auto">
+    <div
+      id="Intro"
+      className="w-full flex flex-col md:flex-row  overflow-x-hidden container mx-auto"
+    >
       <div className="md:w-1/2 w-full flex flex-col justify-center mx-auto">
         <div className="mx-auto flex gap-2 w-full justify-center text-center">
           <p className="text-7xl font-lobster mx-auto ">
